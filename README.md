@@ -17,6 +17,13 @@ The combination of stereo disparity-based depth estimation and object detection 
 - Modular ROS2 architecture
 
 ---
+## Calibration
+
+Stereo calibration was performed using MATLAB Stereo Camera Calibrator.  
+The resulting parameters were exported as `.mat` files and converted into ROS-compatible YAML format for runtime use.
+
+Calibration images are omitted from the repository for simplicity.
+---
 
 ## System Pipeline
 
